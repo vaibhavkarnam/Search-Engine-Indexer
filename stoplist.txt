@@ -1,0 +1,60 @@
+STOPLIST
+
+the
+of
+and
+in
+to
+a
+is
+for
+as
+from
+by
+on
+with
+that
+are
+be
+or
+was
+at
+an
+it
+this
+which
+has
+also
+can
+have
+may
+its
+used
+such
+than
+were
+their
+been
+into
+but
+most
+some
+these
+they
+about
+there
+when
+many
+between
+
+
+EXPLANATION:
+
+A list of 46 words have been selected for the stop list. The Cut off value is top 100 most frequent terms. These are among the top 100 terms when the terms 
+are orderd in decreasing order of frequency. After this threshold value almost all the terms appearing hold some semantic value and might be useful for
+selection as well as ranking of the documents.
+
+The terms selected for the stoplist are the most frequent terms which appear in most of the documents. They are the most common words which would appear to
+ be of little value in helping select documents matching a user query. They are usually short function words and are not topically related to the user query.
+ Therefore the need to be excluded. Also topically related terms such as "power", "fuel", "solar" etc. have been excluded from the stoplist even though
+ they are among the most frequent occuring terms as they are topically related and add value to the ranking and document retrieval process. 
